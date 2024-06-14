@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:dotenv/dotenv.dart';
-import 'package:gotrue/gotrue.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
 import 'package:http/http.dart' as http;
 import 'package:test/test.dart';
 

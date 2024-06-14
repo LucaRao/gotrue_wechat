@@ -1,4 +1,4 @@
-import 'package:gotrue/gotrue.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
 
 class AuthMFAEnrollResponse {
   /// ID of the factor that was just enrolled (in an unverified state).

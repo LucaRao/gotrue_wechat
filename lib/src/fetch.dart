@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:collection/collection.dart';
-import 'package:gotrue/src/types/auth_exception.dart';
-import 'package:gotrue/src/types/fetch_options.dart';
+import 'package:gotrue_wechatlogin/src/types/auth_exception.dart';
+import 'package:gotrue_wechatlogin/src/types/fetch_options.dart';
 import 'package:http/http.dart';
 
 enum RequestMethodType { get, post, put, delete }

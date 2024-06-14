@@ -1,5 +1,5 @@
-import 'package:gotrue/src/constants.dart';
-import 'package:gotrue/src/types/session.dart';
+import 'package:gotrue_wechatlogin/src/constants.dart';
+import 'package:gotrue_wechatlogin/src/types/session.dart';
 
 class AuthState {
   final AuthChangeEvent event;

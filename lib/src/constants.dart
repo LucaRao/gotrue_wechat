@@ -1,5 +1,5 @@
-import 'package:gotrue/src/types/auth_response.dart';
-import 'package:gotrue/src/version.dart';
+import 'package:gotrue_wechatlogin/src/types/auth_response.dart';
+import 'package:gotrue_wechatlogin/src/version.dart';
 
 class Constants {
   static const String defaultGotrueUrl = 'http://localhost:9999';

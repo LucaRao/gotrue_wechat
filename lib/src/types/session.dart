@@ -1,5 +1,5 @@
-import 'package:gotrue/src/constants.dart';
-import 'package:gotrue/src/types/user.dart';
+import 'package:gotrue_wechatlogin/src/constants.dart';
+import 'package:gotrue_wechatlogin/src/types/user.dart';
 import 'package:jwt_decode/jwt_decode.dart';
 
 class Session {

@@ -1,7 +1,7 @@
-import 'package:gotrue/gotrue.dart';
-import 'package:gotrue/src/fetch.dart';
-import 'package:gotrue/src/types/auth_response.dart';
-import 'package:gotrue/src/types/fetch_options.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
+import 'package:gotrue_wechatlogin/src/fetch.dart';
+import 'package:gotrue_wechatlogin/src/types/auth_response.dart';
+import 'package:gotrue_wechatlogin/src/types/fetch_options.dart';
 import 'package:http/http.dart';
 
 import 'gotrue_admin_mfa_api.dart';

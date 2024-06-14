@@ -1,6 +1,6 @@
-name: gotrue
+name: gotrue_wechatlogin
 description: A dart client library for the GoTrue API.
-version: 2.7.1
+version: 2.7.3
 homepage: 'https://memfiredb.com/'
 repository: 'https://github.com/LucaRao/gotrue_wechat'
 documentation: 'https://docs.memfiredb.com/docs/app/sdkdocs/dart/auth/auth-signup/'

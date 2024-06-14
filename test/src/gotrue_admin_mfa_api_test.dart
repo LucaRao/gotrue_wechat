@@ -1,6 +1,6 @@
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:dotenv/dotenv.dart';
-import 'package:gotrue/gotrue.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
 import 'package:http/http.dart' as http;
 import 'package:test/test.dart';
 

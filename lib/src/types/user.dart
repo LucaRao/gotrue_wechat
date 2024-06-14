@@ -1,7 +1,7 @@
 // ignore_for_file: deprecated_member_use_from_same_package
 
 import 'package:collection/collection.dart';
-import 'package:gotrue/src/types/mfa.dart';
+import 'package:gotrue_wechatlogin/src/types/mfa.dart';
 
 class User {
   final String id;

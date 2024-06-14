@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:collection/collection.dart';
-import 'package:gotrue/gotrue.dart';
-import 'package:gotrue/src/constants.dart';
-import 'package:gotrue/src/fetch.dart';
-import 'package:gotrue/src/helper.dart';
-import 'package:gotrue/src/types/auth_response.dart';
-import 'package:gotrue/src/types/fetch_options.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
+import 'package:gotrue_wechatlogin/src/constants.dart';
+import 'package:gotrue_wechatlogin/src/fetch.dart';
+import 'package:gotrue_wechatlogin/src/helper.dart';
+import 'package:gotrue_wechatlogin/src/types/auth_response.dart';
+import 'package:gotrue_wechatlogin/src/types/fetch_options.dart';
 import 'package:http/http.dart';
 import 'package:jwt_decode/jwt_decode.dart';
 import 'package:meta/meta.dart';
@@ -264,15 +264,10 @@ class GoTrueClient {
 
     if (code != null) {
       response = await _fetch.request(
-        '$_url/wechat_app/login?code=${code}',
-        RequestMethodType.post,
+        '$_url/auth/v1/wechat_app/login?code=${code}',
+        RequestMethodType.get,
         options: GotrueRequestOptions(
           headers: _headers,
-          body: {
-            'code': code,
-            'gotrue_meta_security': {'captcha_token': captchaToken},
-          },
-          query: {'grant_type': 'wechat_app'},
         ),
       );
     } else {

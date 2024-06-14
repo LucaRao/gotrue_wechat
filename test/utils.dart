@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:dotenv/dotenv.dart';
-import 'package:gotrue/gotrue.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
 
 /// Email of a user with unverified factor
 const email1 = 'fake1@email.com';

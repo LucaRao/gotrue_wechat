@@ -1,4 +1,4 @@
-import 'package:gotrue/gotrue.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
 
 Future<bool> main(List<String> arguments) async {
   const gotrueUrl = 'http://localhost:9999';

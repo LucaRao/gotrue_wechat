@@ -1,4 +1,4 @@
-import 'package:gotrue/src/helper.dart';
+import 'package:gotrue_wechatlogin/src/helper.dart';
 import 'package:test/test.dart';
 
 void main() {

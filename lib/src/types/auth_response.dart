@@ -1,5 +1,5 @@
-import 'package:gotrue/gotrue.dart';
-import 'package:gotrue/src/constants.dart';
+import 'package:gotrue_wechatlogin/gotrue.dart';
+import 'package:gotrue_wechatlogin/src/constants.dart';
 
 /// Response which might or might not contain session and/or user
 class AuthResponse {
